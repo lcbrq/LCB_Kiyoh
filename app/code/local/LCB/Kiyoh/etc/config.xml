@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_Kiyoh>
+            <version>0.1.0</version>
+        </LCB_Kiyoh>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <lcb_kiyoh>
+                    <file>lcb_kiyoh.xml</file>
+                </lcb_kiyoh>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <helpers>
+            <lcb_kiyoh>
+                <class>LCB_Kiyoh_Helper</class>
+            </lcb_kiyoh>
+        </helpers>
+        <blocks>
+            <lcb_kiyoh>
+                <class>LCB_Kiyoh_Block</class>
+            </lcb_kiyoh>
+        </blocks>
+    </global>
+</config> 

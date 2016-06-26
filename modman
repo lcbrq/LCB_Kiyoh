@@ -1,0 +1,4 @@
+app/code/local/LCB/Kiyoh                              app/code/local/LCB/Kiyoh
+app/design/frontend/base/default/layout/lcb_kiyoh.xml app/design/frontend/base/default/layout/lcb_kiyoh.xml
+app/design/frontend/base/default/template/kiyoh       app/design/frontend/base/default/template/kiyoh 
+app/etc/modules/LCB_Kiyoh.xml                         app/etc/modules/LCB_Kiyoh.xml 

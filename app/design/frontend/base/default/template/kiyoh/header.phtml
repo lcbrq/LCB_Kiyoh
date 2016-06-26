@@ -1,0 +1,12 @@
+<?php
+$this->_init('', '');
+?>
+<div class="kiyoh-review-wraper">
+    <div class="rating-box">
+        <div class="rating" style="width:<?php echo $this->getCompany()->total_score * 10; ?>%"></div>
+    </div>
+    <p>
+        <?php echo $this->getTotalReviews(); ?> 
+        <?php echo $this->__('Total reviews') ?> <?php echo $this->getCompany()->total_reviews ?>
+    </p>
+</div>

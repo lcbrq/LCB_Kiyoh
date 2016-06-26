@@ -1,0 +1,9 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <default>   
+    <reference name="header">   
+      <block type="lcb_kiyoh/review" name="lcb_kiyoh" as="lcb_kiyoh" template="kiyoh/header.phtml"/>   
+    </reference>   
+  </default>   
+</layout>   
+	
