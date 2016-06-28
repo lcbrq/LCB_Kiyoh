@@ -10,7 +10,7 @@ class LCB_Kiyoh_Block_Review extends Mage_Core_Block_Template {
         try {
 
             $cache = Mage::app()->getCache();
-            $xml = $cache->load("lcb_kiyoh");
+            $xml = $cache->load("lcb_kiyoh_$companyId");
 
             if (!$xml) {
                 $xml = simplexml_load_file("https://www.kiyoh.nl/xml/recent_company_reviews.xml?connectorcode=$connectorCode&company_id=$companyId");
